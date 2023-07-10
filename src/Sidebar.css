@@ -1,0 +1,24 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    /* تعديل العرض حسب الحاجة */
+    height: 100vh;
+    /* تعديل الارتفاع حسب الحاجة */
+    background-color: #f1f1f1;
+    /* تعديل لون الخلفية حسب الحاجة */
+    padding: 20px;
+    /* تعديل الهامش الداخلي حسب الحاجة */
+}
+.profileimg{
+    width: 110px;
+        /* تعديل العرض الصورة حسب الحاجة */
+    height: 110px;
+        /* تعديل الارتفاع الصورة حسب الحاجة */
+    border: 2px solid #000;
+}
+.sidebarbg {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 0, 255, 0.5));
+    background-size: cover;
+}
