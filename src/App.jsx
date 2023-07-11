@@ -3,8 +3,8 @@ import "./App.css";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Layout from "./components/Layout";
+import Sidebar from "./components/Sidebar";
 
-import Sidebar from "./Sidebar";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
