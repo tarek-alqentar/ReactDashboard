@@ -1,7 +1,5 @@
-
-
-import React, { useState } from "react";
-import "../Sidebar.css";
+import { useState } from "react";
+import "../assets/Sidebar.css";
 import profilepic from "../assets/profilepic.png";
 
 const Sidebar = () => {
@@ -69,7 +67,6 @@ const Sidebar = () => {
       </div>
     </>
   );
-
 };
 
 export default Sidebar;
