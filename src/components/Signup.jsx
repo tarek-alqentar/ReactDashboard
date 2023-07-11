@@ -2,7 +2,7 @@ import "../assets/signup.css";
 
 const Signup = () => {
   return (
-    <div className="text-center signup">
+    <div id="signup" className="text-center signup">
       <main className="form-signup w-100 m-auto">
         <form>
           <h1 className="h3 mb-3 fw-normal">Please sign up</h1>
@@ -60,6 +60,9 @@ const Signup = () => {
           <button className="w-100 btn btn-lg btn-primary" type="submit">
             Sign up
           </button>
+          <a className="mt-5 mb-3 text-muted" href="#login">
+            or log in if you have an account
+          </a>
           <p className="mt-5 mb-3 text-muted">&copy; 2023–2026</p>
         </form>
       </main>
